@@ -23,7 +23,7 @@ OpenOffice.org 2.4 is a **free and open-source office suite** designed for **wor
 
 ## 🚀 Installation
 
-You can install OpenOffice by clicking on the 
+You can install OpenOffice using multiple mediums
 
 ### Prerequisites 🛠️
 
@@ -56,11 +56,11 @@ You can decide to build from source the Apache OpenOffice tools suite. To build 
 > [!WARNING]
 > Apache OpenOffice is a large project with several dependencies, and the required prerequisites vary depending on the platform. For a detailed and up-to-date guide, refer to the [Project Wiki](https://wiki.openoffice.org/wiki/Documentation/Building_Guide_AOO).
 
-### Prerequisites 🛠️
+#### Prerequisites 🛠️
 
 Before you begin, ensure all necessary dependencies are installed on your system.
 
-### Build Instructions
+#### Build Instructions
 
 Build OpenOffice with the following steps:
 
