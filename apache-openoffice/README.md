@@ -51,6 +51,8 @@ To install using a pre-bundled version:
 
 ### Alternative Installation from GitHub ⚙️
 
+You can decide to build from source the Apache OpenOffice tools suite. To build Apache OpenOffice from source:
+
 > [!WARNING]
 > Apache OpenOffice is a large project with several dependencies, and the required prerequisites vary depending on the platform. For a detailed and up-to-date guide, refer to the [Project Wiki](https://wiki.openoffice.org/wiki/Documentation/Building_Guide_AOO).
 
@@ -60,7 +62,7 @@ Before you begin, ensure all necessary dependencies are installed on your system
 
 ### Build Instructions
 
-Once all prerequisites are in place, you can build OpenOffice with the following steps:
+Build OpenOffice with the following steps:
 
 ```sh
 git clone https://gitbox.apache.org/repos/asf/openoffice.git aoo
@@ -72,8 +74,8 @@ source *.Set.sh
 cd instsetoo_native
 build --all
 ```
-
-> **Note:** The build process may take several hours depending on your system.
+> [!NOTE]
+> The build process may take several hours depending on your system.
 
 The default build will generate a setup version (e.g., `.exe` for Windows, `.dmg` for macOS, `.rpm` and `.deb` for Linux) along with an archived version. The output can be found in:
 
